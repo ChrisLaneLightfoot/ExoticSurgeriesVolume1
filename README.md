@@ -5,6 +5,7 @@ The github repo does not have all the video files. Only the videos for the first
 Current web app version: www.avianandanimal.com/test
 
 Tasks needed:
+
 1. Create new graphics for the “home” image (including new name?)
 2. Create new graphics for the “about” image
 3. Create new icons for the menus
