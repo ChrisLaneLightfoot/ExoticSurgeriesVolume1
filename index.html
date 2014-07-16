@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Exotic Companion Animal Surgeries Volume 1</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+<!-- 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-
+scale=0.5, maximum-scale=0.5" />   -->
+	<link rel="stylesheet" href="css/menustyle.css" type="text/css" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body onmouseup="gDown=0;" onmousedown="gDown=1;">
+<div class="div-Wrapper">
+<div id="menuBar" class="div-menuBar">
+	<ul id="css3menu_top" class="topmenu">
+		<li class="topmenu" id="SpeciesTop"><a href="#" style="height:24px;line-height:24px"><span><img src="img/home.png" alt=""/><span id="SpeciesName">Select Species...</span></span></a>
+			<div id="SpeciesDiv" class="submenu">
+				<div class="column"><ul id="SpeciesList" name="SpeciesList">
+					<li onclick="getSpecies('birds')"><a href="#"><img src="img/help.png" alt=""/>birds</a></li>
+					<li onclick="getSpecies('ferrets')"><a href="#"><img src="img/help.png" alt=""/>ferrets</a></li>
+					<li onclick="getSpecies('chelonia')"><a href="#"><img src="img/help.png" alt=""/>chelonia</a></li>
+					<li onclick="getSpecies('miniture pigs')"><a href="#"><img src="img/help.png" alt=""/>miniture pigs</a></li>
+					<li onclick="getSpecies('hedge hogs')"><a href="#"><img src="img/help.png" alt=""/>hedge hogs</a></li>
+					<li onclick="getSpecies('prairie dogs')"><a href="#"><img src="img/help.png" alt=""/>prairie dogs</a></li>
+					<li onclick="getSpecies('guinea pigs')"><a href="#"><img src="img/help.png" alt=""/>guinea pigs</a></li>
+					<li onclick="getSpecies('iguanas')"><a href="#"><img src="img/help.png" alt=""/>iguanas</a></li>
+					<li onclick="getSpecies('rabbits')"><a href="#"><img src="img/help.png" alt=""/>rabbits</a></li>
+					<li onclick="getSpecies('misc. procedures')"><a href="#"><img src="img/help.png" alt=""/>misc. procedures</a></li></ul>
+				</div>
+			</div>
+		</li>
+		<li class="topmenu" id="ProcedureTop"><a href="#" style="height:24px;line-height:24px"><span><img src="img/curriculum.png" alt=""/><span id="ProcedureName">Select Procedure...</span></span></a>
+			<div id="ProcedureDiv" class="submenu" style="visibility: hidden">
+				<div class="column"><ul id="ProcedureList" name="ProcedureList">
+					<li><a href="#"><img src="img/checkmark.png" alt=""/>Select a Species First!</a></li></ul>
+				</div>
+			</div>
+		</li>
+		<li  class="topmenu" id="SectionTop"><a href="#" style="height:24px;line-height:24px;"><img src="img/star.png" alt=""/><span id="SectionName">Select Section...</span></a>
+			<div id="SectionDiv" class="submenu" style="visibility: hidden">
+				<div class="column"><ul id="SectionList" name="SectionList">
+					<li onclick="getSection('pr')"><a href="#"><img src="img/checkmark.png" alt=""/>step-by-step procedures</a></li>
+					<li onclick="getSection('in')"><a href="#"><img src="img/checkmark.png" alt=""/>indications</a></li>
+					<li onclick="getSection('pw')"><a href="#"><img src="img/checkmark.png" alt=""/>pre-op workup</a></li>
+					<li onclick="getSection('is')"><a href="#"><img src="img/checkmark.png" alt=""/>instrumentation</a></li>
+					<li onclick="getSection('an')"><a href="#"><img src="img/checkmark.png" alt=""/>anesthesia</a></li>
+					<li onclick="getSection('pp')"><a href="#"><img src="img/checkmark.png" alt=""/>patient prep</a></li>
+					<li onclick="getSection('po')"><a href="#"><img src="img/checkmark.png" alt=""/>post-op considerations</a></li>
+					<li onclick="getSection('rf')"><a href="#"><img src="img/checkmark.png" alt=""/>references</a></li></ul>
+				</div>
+			</div>
+		</li>
+	</ul>
+</div>
+<div id="contentContainer" class="div-contentContainer">
+	<div id="videoArea" class="div-videoArea">
+		<video id="video" src="" type="video/mp4" class="style-videoArea" autoplay>
+<!-- <track> might not be supported in Mobile Safari and not supported for file://URL ?? 
+                <track src="" label="English" kind="subtitles" scrlang="en" default></track>
+-->
+		Your browser does not support the video tag.</video>
+	</div>
+	<div id="posterArea" class="div-posterArea">
+	</div>
+	<div class="style-textAreaSide">Teresa Lightfoot, DVM<br/>Dipl. AVBP-Avian<br/><br/>Lucy Bartlett, DVM<br/>Dipl. AVBP-Avian<br/><br/><span class="style-textAreaSmall">with additional surgeries by<br/>Greg Harrison, DVM<br/>Dipl. AVBP-Avian<br/>and<br/>Rita Manarino, DVM<span><br/><a href="#" onclick="showCredits(); return false;"><img src="img/checkmark.png" alt=""/>about</a><br/><label><input type="checkbox" id="muteBox" name="muteBox" onchange="checkMute(this)">mute</label></div>
+</div>
+<div id="text" class="div-textAreaBottom"></div>
+</div>
+
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="functions.js"></script>
+</body>
+</html>
