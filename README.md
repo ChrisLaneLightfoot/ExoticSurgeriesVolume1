@@ -16,7 +16,7 @@ Tasks needed:
 
 Future enhancements:
 
-A. On iPad version, make the text sync up to the voice.
+1. On iPad (large screen) version, make the text sync up to the voice.
 
 ====
 Q&A:
