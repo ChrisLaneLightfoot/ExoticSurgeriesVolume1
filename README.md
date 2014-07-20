@@ -8,15 +8,16 @@ Tasks needed:
 
 1. Create new graphics for the “home” image (including new name?)
 2. Create new graphics for the “about” image
-3. Create new icons for the menus
-4. Possibly update look and feel of UI to match new art
-5. Create a iPhone version of the UI that has a initial selection menus (Species, Procedure, Section, About) to launch the videos.  The text on the iPad version will not be displayed on the iPhone version.  The iPhone version will only allow the videos to be played (in full screen) based on the user selection of a menu system.
-6. Encapsulate in Cordova/Phonegap for iPad and iPhone devices (later may add Surface and Android)
-7. Get on App store
+3. Create a splash screen?
+4. Create new icons for the menus
+5. Possibly update look and feel of UI to match new art
+6. Create a iPhone version of the UI that has a initial selection menus (Species, Procedure, Section, About) to launch the videos.  The text on the iPad version will not be displayed on the iPhone version.  The iPhone version will only allow the videos to be played (in full screen) based on the user selection of a menu system.
+7. Encapsulate in Cordova/Phonegap for iPad and iPhone devices (later may add Surface and Android)
+8. Get on App store
 
 Future enhancements:
 
-1. On iPad (large screen) version, make the text sync up to the voice.
+1. On iPad (large screen) version, make the text sync up to the voice (currently there is some really hacky code that kind of simulates this with the poor assumtion that the position in the audio track can be used to calculate the position in the text string... this needs to be changed to relate exact audio position to exact string position, probably by adding data to the JSON).
 
 ====
 Q&A:
